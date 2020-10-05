@@ -1,4 +1,4 @@
-<a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/ToolsEngine/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/ToolsEngine?style=social"></a>
+<a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/ToolsEngine/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/ToolsEngine?style=social"></a>   ![GitHub top language](https://img.shields.io/github/languages/top/AbirHasan2005/ToolsEngine)   ![GitHub last commit](https://img.shields.io/github/last-commit/AbirHasan2005/ToolsEngine)
 
 # Tools Engine v1.0-BETA
 
