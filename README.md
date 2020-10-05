@@ -69,7 +69,7 @@ If you want to send any Feedback or if you want to share any new idea for this t
 
 
 ## Thanks to
-- [Anomos Dox](https://github.com/palahsu)
+- [Palahsu](https://github.com/palahsu)
 	- Send the idea of this tool.
 	- Helped to collect some tools list.
 - [Arif Hasan](http://t.me/bash_lover)
