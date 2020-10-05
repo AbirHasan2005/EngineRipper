@@ -57,7 +57,7 @@ git clone https://github.com/AbirHasan2005/ToolsEngine && cd ToolsEngine && chmo
 
 
 ## Beta Info:
-As you know that this is in Beta version. So this is not fully complete. Only 50+ Tools available for now. I am working not is also [Anomos Dox](https://github.com/palahsu) helping. We will add 500+ Tools soon. If you want to suggest any tool than **Feel Free** to send your tool name in [Telegram Group](http://t.me/linux_repo). We will soon touch 500+ tools if you guys help us.
+As you know that this is in Beta version. So this is not fully complete. Only 50+ Tools available for now. I am working not is also [Anomos Dox](https://github.com/palahsu) helping. We will add 500+ Tools soon. If you want to suggest any tool than **Feel Free** to send your tool name in [Telegram Group](http://t.me/linux_repo). We will soon touch 500+ tools if you guys help us. Don't use **Search Tool** for now. I will make it working soon.
 
 
 ## Telegram Group(Discuss):
