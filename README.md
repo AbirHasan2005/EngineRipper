@@ -43,15 +43,15 @@ This is a automation of installing some important tools which all Linux & Termux
 
 ## Setup & Start:
 ```bash
-git clone https://github.com/AbirHasan2005/ToolsEngine
-cd ToolsEngine
+git clone https://github.com/AbirHasan2005/EngineRipper
+cd EngineRipper
 chmod +x *
 ./engrip.sh
 ```
 
 One line command:
 ```bash
-git clone https://github.com/AbirHasan2005/ToolsEngine && cd ToolsEngine && chmod +x * && ./engrip.sh
+git clone https://github.com/AbirHasan2005/EngineRipper && cd EngineRipper && chmod +x * && ./engrip.sh
 ```
 
 
