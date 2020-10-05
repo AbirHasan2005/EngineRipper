@@ -6,33 +6,33 @@ This is a automation of installing some important tools which all Linux & Termux
 
 
 ## Tools Categories:
-[01] Anonymously Hiding Tools
-[02] Information Gathering Tools
-[03] Wordlist Generatoring Tools
-[04] Wireless Attacking Tools
-[05] SQL Injection Tools
-[06] Phishing Attacking Tools
-[07] Website Attacking Tools
-[08] Post Exploitation Tools
-[09] Forensic Tools
-[10] Payload Creation Tools
-[11] Exploit Frameworks
-[12] Reverse Engineering Tools
-[13] DDOS Attacking Tools
-[14] Remote Administrator Tools (RAT)
-[15] XSS Attacking Tools
-[16] Steganograhy Tools
-[17] Bruteforce Attacking Tools
-[18] Android Hacking Tools
-[19] IDN Homograph Attacking Tools
-[20] Email Verification Tools
-[21] Hash Cracking Tools
-[22] Wifi Deauthenticating Tools
-[23] SocialMedia Finders
-[24] Payload Injectors
-[25] Web Crawling Tools
-[26] Password Attacking Tools
-[27] Games Section
+- [01] Anonymously Hiding Tools
+- [02] Information Gathering Tools
+- [03] Wordlist Generatoring Tools
+- [04] Wireless Attacking Tools
+- [05] SQL Injection Tools
+- [06] Phishing Attacking Tools
+- [07] Website Attacking Tools
+- [08] Post Exploitation Tools
+- [09] Forensic Tools
+- [10] Payload Creation Tools
+- [11] Exploit Frameworks
+- [12] Reverse Engineering Tools
+- [13] DDOS Attacking Tools
+- [14] Remote Administrator Tools (RAT)
+- [15] XSS Attacking Tools
+- [16] Steganograhy Tools
+- [17] Bruteforce Attacking Tools
+- [18] Android Hacking Tools
+- [19] IDN Homograph Attacking Tools
+- [20] Email Verification Tools
+- [21] Hash Cracking Tools
+- [22] Wifi Deauthenticating Tools
+- [23] SocialMedia Finders
+- [24] Payload Injectors
+- [25] Web Crawling Tools
+- [26] Password Attacking Tools
+- [27] Games Section
 
 
 ## Setup & Start:
