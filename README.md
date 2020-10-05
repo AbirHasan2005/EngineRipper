@@ -1,4 +1,4 @@
-[![GitHub repo size](https://img.shields.io/github/repo-size/AbirHasan2005/?label=Repo%20Size)](https://github.com/AbirHasan2005/ToolsEngine) [![GitHub followers](https://img.shields.io/github/followers/AbirHasan2005?style=social)](https://github.com/AbirHasan2005?tab=following) 
+[(https://img.shields.io/github/repo-size/AbirHasan2005/?label=Repo%20Size)](https://github.com/AbirHasan2005/ToolsEngine) [(https://img.shields.io/github/followers/AbirHasan2005?style=social)](https://github.com/AbirHasan2005?tab=following) [(https://img.shields.io/github/forks/AbirHasan2005/ToolsEngine?style=social)](https://github.com/AbirHasan2005/ToolsEngine/network/members)
 
 # Tools Engine v1.0-BETA
 
