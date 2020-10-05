@@ -1,4 +1,10 @@
-![GitHub top language](https://img.shields.io/github/languages/top/AbirHasan2005/EngineRipper)   ![GitHub last commit](https://img.shields.io/github/last-commit/AbirHasan2005/EngineRipper)   ![GitHub contributors](https://img.shields.io/github/contributors/AbirHasan2005/EngineRipper)   ![GitHub repo size](https://img.shields.io/github/repo-size/AbirHasan2005/EngineRipper)   ![GitHub closed issues](https://img.shields.io/github/issues-closed/AbirHasan2005/EngineRipper)   ![GitHub issues](https://img.shields.io/github/issues/AbirHasan2005/EngineRipper)   <a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/EngineRipper/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/EngineRipper?style=social"></a>   
+![GitHub top language](https://img.shields.io/github/languages/top/AbirHasan2005/EngineRipper)   ![GitHub last commit](https://img.shields.io/github/last-commit/AbirHasan2005/EngineRipper)
+
+![GitHub contributors](https://img.shields.io/github/contributors/AbirHasan2005/EngineRipper)   ![GitHub repo size](https://img.shields.io/github/repo-size/AbirHasan2005/EngineRipper)
+
+![GitHub closed issues](https://img.shields.io/github/issues-closed/AbirHasan2005/EngineRipper)   ![GitHub issues](https://img.shields.io/github/issues/AbirHasan2005/EngineRipper)
+
+<a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/EngineRipper/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/EngineRipper?style=social"></a>   
 
 # Engine Ripper v1.0-BETA
 
