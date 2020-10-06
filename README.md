@@ -6,7 +6,7 @@
 
 <a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/EngineRipper/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/EngineRipper?style=social"></a>   
 
-# Engine Ripper v1.21-BETA  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/AbirHasan2005/EngineRipper)](https://github.com/AbirHasan2005/EngineRipper/releases)
+# Engine Ripper v1.42-BETA  [![GitHub release (latest by date)](https://img.shields.io/github/v/release/AbirHasan2005/EngineRipper)](https://github.com/AbirHasan2005/EngineRipper/releases)
 
 This is a automation of installing some important tools which all Linux & Termux users needs. Now only some tools are available. Try to get a target of 1000+ tools on this tool. If you want to help us to add some tools on this than please send tool name on my [Telegram Group](http://t.me/linux_repo). This tool will do a automation installing of a tool. No need to do much things. It's collection of tools is better for now. Trying to make it best. I will update this tool soon. So must check updates on GitHub or [Telegram Group](http://t.me/linux_repo). In next update I will add more tools. Also I will fix problems. If you want to report any issue than please do it in GitHub or [Telegram Group](http://t.me/linux_repo). Trying to make this a best. So if you want to share any ideas to improve this tool or any feature should I put on this tool than please send your feedback on [Telegram Group](http://t.me/linux_repo).
 
@@ -40,6 +40,8 @@ This is a automation of installing some important tools which all Linux & Termux
 - [26] Password Attacking Tools
 - [27] Games Section
 
+## Search Tool:
+There is a GitHub Lookup tool. This tool by [BlackHole Security](https://github.com/Gameye98/GINF). Using Github API to gathering information about the user, repository, follower and also the following.
 
 ## Setup & Start:
 ```bash
@@ -81,6 +83,8 @@ If you want to send any Feedback or if you want to share any new idea for this t
 - [Arif Hasan](http://t.me/bash_lover)
 	- Helped to make the banner.
 	- Degined ***error_handle*** and ***command_not_found*** function.
+- [BlackHole Security](https://github.com/Gameye98/GINF)
+	- For Search Tool.
 
 
 ## Follow on:
