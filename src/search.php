@@ -1,41 +1,265 @@
-<?php #!/usr/bin/env php
-<?php /* GINF - GitHub Information Gathering
+#!/usr/bin/env php
+<?php
+/* GINF - GitHub Information Gathering
  * author: DedSecTL
  * telegram: @dtlily
  * line: dtl.lily
  * team: BlackHole Security
- */ $cprjlkia_bda9643ac6601722a28f238714274da4=base64_decode('G1sxOzMxbQ==');$nfkklkyo_9f27410725ab8cc8854a2769c7a516b8=base64_decode('G1sxOzkybQ==');$acksoctb_d487dd0b55dfcacdd920ccbdaeafa351=base64_decode('G1sxOzMzbQ==');$lpbnzvgy_b2374ba229419ee0aef9f3b4b65dad03=base64_decode('G1sxOzk3bQ==');$bfxniemx_d508fe45cecaf653904a0e774084bb5c=base64_decode('G1s5N20=');$jihgwgmd_6411532ba4971f378391776a9db629d3=base64_decode('G1s5Nm0=');$fqdywned_6e1501ec77612b9b4725dad4dba27627=base64_decode('G1sxOzk2bQ==');$ocrfympd_4a0b0dcedd48f780778d1cd1bb8f9877=base64_decode('G1sxOzk1bQ==');$rjpsztzh_fea087517c26fadd409bd4b9dc642555=base64_decode('G1swbQ==');$gerslehi_5269f4d75f5bc75f0f94bab2100a5531=base64_decode('TW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDUuMS4xOyBBbmRyb21heCBBMTZDM0ggQnVpbGQvTE1ZNDdWKSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjMuMC4zMjM5LjExMSBNb2JpbGUgU2FmYXJpLzUzNy4zNg==');$cbguoxsm_12df53fea8b3adfa6c2ec456dd22e204="$fqdywned_6e1501ec77612b9b4725dad4dba27627 _____             _            ____  _
-| ____|_ __   __ _(_)_ __   ___|  _ \(_)_ __  _ __   ___ _ __
-|  _| | '_ \ / _` | | '_ \ / _ \ |_) | | '_ \| '_ \ / _ \ '__|
-| |___| | | | (_| | | | | |  __/  _ <| | |_) | |_) |  __/ |
-|_____|_| |_|\__, |_|_| |_|\___|_| \_\_| .__/| .__/ \___|_|
-             |___/         _           | |   | |
- ____                     | |          |_|   |_|
-/ ___|  ___  __ _ _ __ ___| |___
-\___ \ / _ \/ _` | '__/ __| '_  |
+ */
+$red = "\033[1;91m";
+$green = "\033[1;92m";
+$yellow = "\033[1;93m";
+$blue = "\033[1;94m";
+$white = "\033[1;97m";
+$cyan = "\033[1;96m";
+$normal = "\033[0m";
+$ua = "Mozilla/5.0 (Linux; Android 5.1.1; Andromax A16C3H Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36";
+$banner = "$green
+ ____                      _
+/ ___|  ___  __ _ _ __ ___| |__
+\___ \ / _ \/ _` | '__/ __| '_ \
  ___) |  __/ (_| | | | (__| | | |
-|____/ \___|\__,_|_|  \___|_| |_|\n\n$nfkklkyo_9f27410725ab8cc8854a2769c7a516b8";$ueyivqld_46b3931b9959c927df4fc65fdee94b07="$ocrfympd_4a0b0dcedd48f780778d1cd1bb8f9877
-------------------------------------------
-                  About
-------------------------------------------
-EngineRipper Search -- by @AbirHasan2005
-Author: DedSecTL
-Version: 2.0
-Telegram: http://t.me/linux_repo
-Desgined for EngineRipper $nfkklkyo_9f27410725ab8cc8854a2769c7a516b8\n\n";$sbuknlor_657f8b8da628ef83cf69101b6817150a="$ocrfympd_4a0b0dcedd48f780778d1cd1bb8f9877
--------------------------------------------
-Commands        Description
--------------------------------------------$jihgwgmd_6411532ba4971f378391776a9db629d3
-clear$bfxniemx_d508fe45cecaf653904a0e774084bb5c           clear the screen$jihgwgmd_6411532ba4971f378391776a9db629d3
-banner$bfxniemx_d508fe45cecaf653904a0e774084bb5c          show banner$jihgwgmd_6411532ba4971f378391776a9db629d3
-getuser$bfxniemx_d508fe45cecaf653904a0e774084bb5c         get user information$jihgwgmd_6411532ba4971f378391776a9db629d3
-getrepos$bfxniemx_d508fe45cecaf653904a0e774084bb5c        get repos information$jihgwgmd_6411532ba4971f378391776a9db629d3
-getfower$bfxniemx_d508fe45cecaf653904a0e774084bb5c        get follower information$jihgwgmd_6411532ba4971f378391776a9db629d3
-getfowin$bfxniemx_d508fe45cecaf653904a0e774084bb5c        get following information$jihgwgmd_6411532ba4971f378391776a9db629d3
-about$bfxniemx_d508fe45cecaf653904a0e774084bb5c           about this program$jihgwgmd_6411532ba4971f378391776a9db629d3
-back$bfxniemx_d508fe45cecaf653904a0e774084bb5c            exit the search tool$nfkklkyo_9f27410725ab8cc8854a2769c7a516b8\n\n";echo $cbguoxsm_12df53fea8b3adfa6c2ec456dd22e204;echo"$lpbnzvgy_b2374ba229419ee0aef9f3b4b65dad03       Type $fqdywned_6e1501ec77612b9b4725dad4dba27627'help'$lpbnzvgy_b2374ba229419ee0aef9f3b4b65dad03 for more information$nfkklkyo_9f27410725ab8cc8854a2769c7a516b8\n\n";while(True){$dspscgao_389244ff596bdfd071bb1ec27c2f69ce=fhwzeozt_772b0b2bef815eae703a72ba25041d58(base64_decode('IFNlYXJjaD4g'));qluzmwla_a9dfda93a218bddc7e5c823202ebfff2($dspscgao_389244ff596bdfd071bb1ec27c2f69ce);if($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('aGVscA==')){echo $sbuknlor_657f8b8da628ef83cf69101b6817150a;}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('Y2xlYXI=')){system(base64_decode('Y2xlYXI='));}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('YmFubmVy')){echo $cbguoxsm_12df53fea8b3adfa6c2ec456dd22e204.base64_decode('Cg==');}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('Z2V0dXNlcg==')){echo base64_decode('VXNhZ2U6IGdldHVzZXIgPHVzZXJuYW1lPgo=');}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('Z2V0cmVwb3M=')){echo base64_decode('VXNhZ2U6IGdldHJlcG9zIDx1c2VybmFtZT4gPHJlcG9uYW1lPgo=');}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('Z2V0Zm93ZXI=')){echo base64_decode('VXNhZ2U6IGdldGZvd2VyIDx1c2VybmFtZT4K');}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('Z2V0Zm93aW4=')){echo base64_decode('VXNhZ2U6IGdldGZvd2luIDx1c2VybmFtZT4K');}elseif(preg_match(base64_decode('L2dldHVzZXIv'),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)){if(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[0]==base64_decode('Z2V0dXNlcg==')&&count(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce))==2){$snyuqief_572d4e421e5e6b9bc11d815e8a027112=base64_decode('aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8=').explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[1];$jmbblqyk_d88fc6edf21ea464d35ff76288b84103=curl_init();curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_URL,$snyuqief_572d4e421e5e6b9bc11d815e8a027112);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_RETURNTRANSFER,1);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYPEER,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYHOST,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_USERAGENT,$gerslehi_5269f4d75f5bc75f0f94bab2100a5531);$hbljsszz_9b207167e5381c47682c6b4f58a623fb=curl_exec($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);curl_close($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);if($hbljsszz_9b207167e5381c47682c6b4f58a623fb!=NULL&&count(explode(base64_decode('IA=='),$hbljsszz_9b207167e5381c47682c6b4f58a623fb))!=1){$jxtqodba_8d777f385d3dfec8815d20f7496026dc=json_decode($hbljsszz_9b207167e5381c47682c6b4f58a623fb,1);echo base64_decode('ClsrXSBVc2VyIEluZm9ybWF0aW9uCg==');echo base64_decode('TG9naW46IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('bG9naW4=')].base64_decode('Cg==');echo base64_decode('SUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('aWQ=')].base64_decode('Cg==');echo base64_decode('Tm9kZSBJRDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('bm9kZV9pZA==')].base64_decode('Cg==');echo base64_decode('QXZhdGFyIFVSTDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('YXZhdGFyX3VybA==')].base64_decode('Cg==');echo base64_decode('R3JhdmF0YXIgSUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Z3JhdmF0YXJfaWQ=')].base64_decode('Cg==');echo base64_decode('VVJMOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('dXJs')].base64_decode('Cg==');echo base64_decode('SFRNTCBVUkw6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('aHRtbF91cmw=')].base64_decode('Cg==');echo base64_decode('VHlwZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('dHlwZQ==')].base64_decode('Cg==');echo base64_decode('U2l0ZSBBZG1pbjog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('c2l0ZV9hZG1pbg==')].base64_decode('Cg==');echo base64_decode('TmFtZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('bmFtZQ==')].base64_decode('Cg==');echo base64_decode('Q29tcGFueTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Y29tcGFueQ==')].base64_decode('Cg==');echo base64_decode('QmxvZzog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('YmxvZw==')].base64_decode('Cg==');echo base64_decode('TG9jYXRpb246IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('bG9jYXRpb24=')].base64_decode('Cg==');echo base64_decode('RS1tYWlsOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('ZW1haWw=')].base64_decode('Cg==');echo base64_decode('SGlyZWFibGU6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('aGlyZWFibGU=')].base64_decode('Cg==');echo base64_decode('QmlvOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Ymlv')].base64_decode('Cg==');echo base64_decode('UHVibGljIFJlcG9zOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('cHVibGljX3JlcG9z')].base64_decode('Cg==');echo base64_decode('UHVibGljIEdpc3RzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('cHVibGljX2dpc3Rz')].base64_decode('Cg==');echo base64_decode('Rm9sbG93ZXJzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Zm9sbG93ZXJz')].base64_decode('Cg==');echo base64_decode('Rm9sbG93aW5nOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Zm9sbG93aW5n')].base64_decode('Cg==');echo base64_decode('Q3JlYXRlZCBhdDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('Y3JlYXRlZF9hdA==')].base64_decode('Cg==');echo base64_decode('VXBkYXRlZCBhdDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[base64_decode('dXBkYXRlZF9hdA==')].base64_decode('Cgo=');}else{echo base64_decode('WyFdIE5ldHdvcmtFcnJvcjogbmV0d29yayBpcyB1bnJlYWNoYWJsZQo=');}}else{//pass
-}}elseif(preg_match(base64_decode('L2dldHJlcG9zLw=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)){if(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[0]==base64_decode('Z2V0cmVwb3M=')&&count(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce))==2){$snyuqief_572d4e421e5e6b9bc11d815e8a027112=base64_decode('aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8=').explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[1].base64_decode('L3JlcG9zP3Blcl9wYWdlPTk5OQ==');$jmbblqyk_d88fc6edf21ea464d35ff76288b84103=curl_init();curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_URL,$snyuqief_572d4e421e5e6b9bc11d815e8a027112);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_RETURNTRANSFER,1);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYHOST,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYPEER,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_USERAGENT,$gerslehi_5269f4d75f5bc75f0f94bab2100a5531);$hbljsszz_9b207167e5381c47682c6b4f58a623fb=curl_exec($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);curl_close($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);if($hbljsszz_9b207167e5381c47682c6b4f58a623fb!=NULL&&count(explode(base64_decode('IA=='),$hbljsszz_9b207167e5381c47682c6b4f58a623fb))!=1){$jxtqodba_8d777f385d3dfec8815d20f7496026dc=json_decode($hbljsszz_9b207167e5381c47682c6b4f58a623fb,1);echo base64_decode('ClsrXSBSZXBvcyBJbmZvcm1hdGlvbgo=');for($ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6=0;$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6<count($jxtqodba_8d777f385d3dfec8815d20f7496026dc);$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6++){echo base64_decode('SUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aWQ=')].base64_decode('Cg==');echo base64_decode('Tm9kZSBJRDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bm9kZV9pZA==')].base64_decode('Cg==');echo base64_decode('TmFtZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bmFtZQ==')].base64_decode('Cg==');echo base64_decode('RnVsbCBOYW1lOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZnVsbF9uYW1l')].base64_decode('Cg==');echo base64_decode('T3duZXI6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('b3duZXI=')][base64_decode('bG9naW4=')].base64_decode('Cg==');echo base64_decode('UHJpdmF0ZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('cHJpdmF0ZQ==')].base64_decode('Cg==');echo base64_decode('SFRNTCBVUkw6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aHRtbF91cmw=')].base64_decode('Cg==');echo base64_decode('RGVzY3JpcHRpb246IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZGVzY3JpcHRpb24=')].base64_decode('Cg==');echo base64_decode('Rm9yazog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Zm9yaw==')].base64_decode('Cg==');echo base64_decode('SG9tZXBhZ2U6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aG9tZXBhZ2U=')].base64_decode('Cg==');echo base64_decode('U2l6ZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c2l6ZQ==')].base64_decode('Cg==');echo base64_decode('U3RhcnRnYXplcihzKTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c3RhcnRnYXplcnNfY291bnQ=')].base64_decode('Cg==');echo base64_decode('V2F0Y2hlcihzKTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('d2F0Y2hlcnM=')].base64_decode('Cg==');echo base64_decode('TGFuZ3VhZ2U6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bGFuZ3VhZ2U=')].base64_decode('Cg==');echo base64_decode('SXNzdWVzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX2lzc3Vlcw==')].base64_decode('Cg==');echo base64_decode('UHJvamVjdHM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3Byb2plY3Rz')].base64_decode('Cg==');echo base64_decode('RG93bmxvYWRzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX2Rvd25sb2Fkcw==')].base64_decode('Cg==');echo base64_decode('V2lraTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3dpa2k=')].base64_decode('Cg==');echo base64_decode('UGFnZXM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3BhZ2Vz')].base64_decode('Cg==');echo base64_decode('TWlycm9yIFVSTDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bWlycm9yX3VybA==')].base64_decode('Cg==');echo base64_decode('QXJjaGl2ZWQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('YXJjaGl2ZWQ=')].base64_decode('Cg==');echo base64_decode('TGljZW5zZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bGljZW5zZQ==')].base64_decode('Cg==');echo base64_decode('Rm9ya3M6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Zm9ya3M=')].base64_decode('Cg==');echo base64_decode('T3BlbiBJc3N1ZXM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('b3Blbl9pc3N1ZXM=')].base64_decode('Cg==');echo base64_decode('RGVmYXVsdCBCcmFuY2g6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZGVmYXVsdF9icmFuY2g=')].base64_decode('Cgo=');}}else{echo base64_decode('WyFdIE5ldHdvcmtFcnJvcjogbmV0d29yayBpcyB1bnJlYWNoYWJsZQo=');}}elseif(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[0]==base64_decode('Z2V0cmVwb3M=')&&count(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce))==3){$snyuqief_572d4e421e5e6b9bc11d815e8a027112=base64_decode('aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8=').explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[1].base64_decode('L3JlcG9zP3Blcl9wYWdlPTk5OQ==');$jmbblqyk_d88fc6edf21ea464d35ff76288b84103=curl_init();curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_URL,$snyuqief_572d4e421e5e6b9bc11d815e8a027112);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_RETURNTRANSFER,1);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYHOST,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYPEER,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_USERAGENT,$gerslehi_5269f4d75f5bc75f0f94bab2100a5531);$hbljsszz_9b207167e5381c47682c6b4f58a623fb=curl_exec($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);curl_close($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);if($hbljsszz_9b207167e5381c47682c6b4f58a623fb!=NULL&&count(explode(base64_decode('IA=='),$hbljsszz_9b207167e5381c47682c6b4f58a623fb))!=1){$jxtqodba_8d777f385d3dfec8815d20f7496026dc=json_decode($hbljsszz_9b207167e5381c47682c6b4f58a623fb,1);echo base64_decode('ClsrXSBSZXBvcyBJbmZvcm1hdGlvbgo=');for($ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6=0;$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6<count($jxtqodba_8d777f385d3dfec8815d20f7496026dc);$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6++){if($jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bmFtZQ==')]==explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[2]){echo base64_decode('SUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aWQ=')].base64_decode('Cg==');echo base64_decode('Tm9kZSBJRDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bm9kZV9pZA==')].base64_decode('Cg==');echo base64_decode('TmFtZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bmFtZQ==')].base64_decode('Cg==');echo base64_decode('RnVsbCBOYW1lOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZnVsbF9uYW1l')].base64_decode('Cg==');echo base64_decode('T3duZXI6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('b3duZXI=')][base64_decode('bG9naW4=')].base64_decode('Cg==');echo base64_decode('UHJpdmF0ZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('cHJpdmF0ZQ==')].base64_decode('Cg==');echo base64_decode('SFRNTCBVUkw6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aHRtbF91cmw=')].base64_decode('Cg==');echo base64_decode('RGVzY3JpcHRpb246IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZGVzY3JpcHRpb24=')].base64_decode('Cg==');echo base64_decode('Rm9yazog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Zm9yaw==')].base64_decode('Cg==');echo base64_decode('SG9tZXBhZ2U6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aG9tZXBhZ2U=')].base64_decode('Cg==');echo base64_decode('U2l6ZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c2l6ZQ==')].base64_decode('Cg==');echo base64_decode('U3RhcnRnYXplcihzKTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c3RhcnRnYXplcnNfY291bnQ=')].base64_decode('Cg==');echo base64_decode('V2F0Y2hlcihzKTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('d2F0Y2hlcnM=')].base64_decode('Cg==');echo base64_decode('TGFuZ3VhZ2U6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bGFuZ3VhZ2U=')].base64_decode('Cg==');echo base64_decode('SXNzdWVzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX2lzc3Vlcw==')].base64_decode('Cg==');echo base64_decode('UHJvamVjdHM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3Byb2plY3Rz')].base64_decode('Cg==');echo base64_decode('RG93bmxvYWRzOiA=').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX2Rvd25sb2Fkcw==')].base64_decode('Cg==');echo base64_decode('V2lraTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3dpa2k=')].base64_decode('Cg==');echo base64_decode('UGFnZXM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aGFzX3BhZ2Vz')].base64_decode('Cg==');echo base64_decode('TWlycm9yIFVSTDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bWlycm9yX3VybA==')].base64_decode('Cg==');echo base64_decode('QXJjaGl2ZWQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('YXJjaGl2ZWQ=')].base64_decode('Cg==');echo base64_decode('TGljZW5zZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bGljZW5zZQ==')].base64_decode('Cg==');echo base64_decode('Rm9ya3M6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Zm9ya3M=')].base64_decode('Cg==');echo base64_decode('T3BlbiBJc3N1ZXM6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('b3Blbl9pc3N1ZXM=')].base64_decode('Cg==');echo base64_decode('RGVmYXVsdCBCcmFuY2g6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('ZGVmYXVsdF9icmFuY2g=')].base64_decode('Cgo=');}}}else{echo base64_decode('WyFdIE5ldHdvcmtFcnJvcjogbmV0d29yayBpcyB1bnJlYWNoYWJsZQo=');}}else{//pass
-}}elseif(preg_match(base64_decode('L2dldGZvd2VyLw=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)){if(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[0]==base64_decode('Z2V0Zm93ZXI=')&&count(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce))==2){$snyuqief_572d4e421e5e6b9bc11d815e8a027112=base64_decode('aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8=').explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[1].base64_decode('L2ZvbGxvd2Vycz9wZXJfcGFnZT05OTk=');$jmbblqyk_d88fc6edf21ea464d35ff76288b84103=curl_init();curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_URL,$snyuqief_572d4e421e5e6b9bc11d815e8a027112);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_RETURNTRANSFER,1);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYPEER,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYHOST,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_USERAGENT,$gerslehi_5269f4d75f5bc75f0f94bab2100a5531);$hbljsszz_9b207167e5381c47682c6b4f58a623fb=curl_exec($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);curl_close($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);if($hbljsszz_9b207167e5381c47682c6b4f58a623fb!=NULL&&count(explode(base64_decode('IA=='),$hbljsszz_9b207167e5381c47682c6b4f58a623fb))!=1){$jxtqodba_8d777f385d3dfec8815d20f7496026dc=json_decode($hbljsszz_9b207167e5381c47682c6b4f58a623fb,1);echo base64_decode('ClsrXSBGb2xsb3dlcnMgSW5mb3JtYXRpb24K');for($ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6=0;$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6<count($jxtqodba_8d777f385d3dfec8815d20f7496026dc);$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6++){echo base64_decode('bG9naW46IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bG9naW4=')].base64_decode('Cg==');echo base64_decode('aWQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aWQ=')].base64_decode('Cg==');echo base64_decode('bm9kZSBpZDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bm9kZV9pZA==')].base64_decode('Cg==');echo base64_decode('YXZhdGFyIHVybDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('YXZhdGFyX3VybA==')].base64_decode('Cg==');echo base64_decode('Z3JhdmF0YXIgaWQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Z3JhdmF0YXJfaWQ=')].base64_decode('Cg==');echo base64_decode('aHRtbCB1cmw6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aHRtbF91cmw=')].base64_decode('Cg==');echo base64_decode('dHlwZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('dHlwZQ==')].base64_decode('Cg==');echo base64_decode('c2l0ZSBhZG1pbjog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c2l0ZV9hZG1pbg==')].base64_decode('Cgo=');}}else{echo base64_decode('WyFdIE5ldHdvcmtFcnJvcjogbmV0d29yayBpcyB1bnJlYWNoYWJsZQo=');}}else{//pass
-}}elseif(preg_match(base64_decode('L2dldGZvd2luLw=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)){if(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[0]==base64_decode('Z2V0Zm93aW4=')&&count(explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce))==2){$snyuqief_572d4e421e5e6b9bc11d815e8a027112=base64_decode('aHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS91c2Vycy8=').explode(base64_decode('IA=='),$dspscgao_389244ff596bdfd071bb1ec27c2f69ce)[1].base64_decode('L2ZvbGxvd2luZz9wZXJfcGFnZT05OTk=');$jmbblqyk_d88fc6edf21ea464d35ff76288b84103=curl_init();curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_URL,$snyuqief_572d4e421e5e6b9bc11d815e8a027112);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_RETURNTRANSFER,1);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYPEER,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_SSL_VERIFYHOST,0);curl_setopt($jmbblqyk_d88fc6edf21ea464d35ff76288b84103,CURLOPT_USERAGENT,$gerslehi_5269f4d75f5bc75f0f94bab2100a5531);$hbljsszz_9b207167e5381c47682c6b4f58a623fb=curl_exec($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);curl_close($jmbblqyk_d88fc6edf21ea464d35ff76288b84103);if($hbljsszz_9b207167e5381c47682c6b4f58a623fb!=NULL&&count(explode(base64_decode('IA=='),$hbljsszz_9b207167e5381c47682c6b4f58a623fb))!=1){$jxtqodba_8d777f385d3dfec8815d20f7496026dc=json_decode($hbljsszz_9b207167e5381c47682c6b4f58a623fb,1);echo base64_decode('ClsrXSBGb2xsb3dpbmcgSW5mb3JtYXRpb24K');for($ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6=0;$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6<count($jxtqodba_8d777f385d3dfec8815d20f7496026dc);$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6++){echo base64_decode('TG9naW46IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bG9naW4=')].base64_decode('Cg==');echo base64_decode('SUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aWQ=')].base64_decode('Cg==');echo base64_decode('Tm9kZSBJRDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('bm9kZV9pZA==')].base64_decode('Cg==');echo base64_decode('QXZhdGFyIFVSTDog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('YXZhdGFyX3VybA==')].base64_decode('Cg==');echo base64_decode('R3JhdmF0YXIgSUQ6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('Z3JhdmF0YXJfaWQ=')].base64_decode('Cg==');echo base64_decode('SFRNTCBVUkw6IA==').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('aHRtbF91cmw=')].base64_decode('Cg==');echo base64_decode('VHlwZTog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('dHlwZQ==')].base64_decode('Cg==');echo base64_decode('U2l0ZSBBZG1pbjog').$jxtqodba_8d777f385d3dfec8815d20f7496026dc[$ogkcpdmg_9dd4e461268c8034f5c8564e155c67a6][base64_decode('c2l0ZV9hZG1pbg==')].base64_decode('Cgo=');}}else{echo base64_decode('WyFdIE5ldHdvcmtFcnJvcjogbmV0d29yayBpcyB1bnJlYWNoYWJsZQo=');}}else{//pass
-}}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('YWJvdXQ=')){echo $ueyivqld_46b3931b9959c927df4fc65fdee94b07;}elseif($dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('ZXhpdA==')||$dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('cXVpdA==')||$dspscgao_389244ff596bdfd071bb1ec27c2f69ce==base64_decode('YmFjaw==')){echo $rjpsztzh_fea087517c26fadd409bd4b9dc642555;break;}else{//pass
-}}?>
+|____/ \___|\__,_|_|  \___|_| |_|
+
+$cyan   Search Tool $blue v2.4 $normal\n\n";
+$about = "$white
+About
+-----
+GINF - Github Information Gathering
+Author : DedSecTL <dtlily>
+Version : 1.0
+Team : BlackHole Security
+Date : Fri Aug 17 07:48:19 2018
+Telegram : @dtlily
+Line : dtl.lily$normal\n\n";
+$help = "$white
+Command         Description
+---------------------------------------$cyan
+clear$white           Clear the screen$cyan
+banner$white          Show banner$cyan
+getuser$white         Get user information$cyan
+getrepos$white        Get repos information$cyan
+getfower$white        Get follower information$cyan
+getfowin$white        Get following information$cyan
+exit$white            Exit the Search Tool$normal\n\n";
+echo $banner;
+echo "$white       Type '$cyan help$white ' for more information$normal\n\n";
+while (True) {
+	$userInput = readline("Search >>> ");
+	readline_add_history($userInput);
+	if($userInput == "help") {
+		echo $help;
+	} elseif($userInput == "clear") {
+		system("clear");
+	} elseif($userInput == "banner") {
+		echo $banner."\n";
+	} elseif($userInput == "getuser") {
+		echo "Usage: getuser <username>\n";
+	} elseif($userInput == "getrepos") {
+		echo "Usage: getrepos <username> <reponame>\n";
+	} elseif($userInput == "getfower") {
+		echo "Usage: getfower <username>\n";
+	} elseif($userInput == "getfowin") {
+		echo "Usage: getfowin <username>\n";
+	} elseif(preg_match('/getuser/', $userInput)) {
+		if(explode(' ', $userInput)[0] == "getuser" && count(explode(' ', $userInput)) == 2) {
+			$url = "https://api.github.com/users/".explode(' ', $userInput)[1];
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_USERAGENT, $ua);
+			$res = curl_exec($ch);
+			curl_close($ch);
+			if($res != NULL && count(explode(' ', $res)) != 1) {
+				$data = json_decode($res, 1);
+				echo "\n[+] User Information\n";
+				echo "Login: ".$data["login"]."\n";
+				echo "ID: ".$data["id"]."\n";
+				echo "Node ID: ".$data["node_id"]."\n";
+				echo "Avatar URL: ".$data["avatar_url"]."\n";
+				echo "Gravatar ID: ".$data["gravatar_id"]."\n";
+				echo "URL: ".$data["url"]."\n";
+				echo "HTML URL: ".$data["html_url"]."\n";
+				echo "Type: ".$data["type"]."\n";
+				echo "Site Admin: ".$data["site_admin"]."\n";
+				echo "Name: ".$data["name"]."\n";
+				echo "Company: ".$data["company"]."\n";
+				echo "Blog: ".$data["blog"]."\n";
+				echo "Location: ".$data["location"]."\n";
+				echo "Email: ".$data["email"]."\n";
+				echo "Hireable: ".$data["hireable"]."\n";
+				echo "Bio: ".$data["bio"]."\n";
+				echo "Public repos: ".$data["public_repos"]."\n";
+				echo "Public gists: ".$data["public_gists"]."\n";
+				echo "Followers: ".$data["followers"]."\n";
+				echo "Following: ".$data["following"]."\n";
+				echo "Created at: ".$data["created_at"]."\n";
+				echo "Updated at: ".$data["updated_at"]."\n\n";
+			} else {
+				echo "[!] NetworkError: Network is unreachable\n";
+			}
+		} else {
+			//pass
+		}
+	} elseif(preg_match('/getrepos/', $userInput)) {
+		if(explode(' ', $userInput)[0] == "getrepos" && count(explode(' ', $userInput)) == 2) {
+			$url = "https://api.github.com/users/".explode(' ', $userInput)[1]."/repos?per_page=999";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_USERAGENT, $ua);
+			$res = curl_exec($ch);
+			curl_close($ch);
+			if($res != NULL && count(explode(' ', $res)) != 1) {
+				$data = json_decode($res, 1);
+				echo "\n[+] Repos Information\n";
+				for($x = 0;$x < count($data);$x++) {
+					echo "ID: ".$data[$x]["id"]."\n";
+					echo "Node ID: ".$data[$x]["node_id"]."\n";
+					echo "Name: ".$data[$x]["name"]."\n";
+					echo "Full Name: ".$data[$x]["full_name"]."\n";
+					echo "Owner: ".$data[$x]["owner"]["login"]."\n";
+					echo "Private: ".$data[$x]["private"]."\n";
+					echo "HTML URL: ".$data[$x]["html_url"]."\n";
+					echo "Description: ".$data[$x]["description"]."\n";
+					echo "Fork: ".$data[$x]["fork"]."\n";
+					echo "Homepage: ".$data[$x]["homepage"]."\n";
+					echo "Size: ".$data[$x]["size"]."\n";
+					echo "Stars: ".$data[$x]["stargazers_count"]."\n";
+					echo "Watchers: ".$data[$x]["watchers"]."\n";
+					echo "Language: ".$data[$x]["language"]."\n";
+					echo "Issues: ".$data[$x]["has_issues"]."\n";
+					echo "Projects: ".$data[$x]["has_projects"]."\n";
+					echo "Downloads: ".$data[$x]["has_downloads"]."\n";
+					echo "Wiki: ".$data[$x]["has_wiki"]."\n";
+					echo "Pages: ".$data[$x]["has_pages"]."\n";
+					echo "Mirror URL: ".$data[$x]["mirror_url"]."\n";
+					echo "Archived: ".$data[$x]["archived"]."\n";
+					echo "License: ".$data[$x]["license"]."\n";
+					echo "Forks: ".$data[$x]["forks"]."\n";
+					echo "Open issues: ".$data[$x]["open_issues"]."\n";
+					echo "Default branch: ".$data[$x]["default_branch"]."\n\n";
+				}
+			} else {
+				echo "[!] NetworkError: Network is unreachable\n";
+			}
+		} elseif(explode(' ', $userInput)[0] == "getrepos" && count(explode(' ', $userInput)) == 3) {
+			$url = "https://api.github.com/users/".explode(' ', $userInput)[1]."/repos?per_page=999";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_USERAGENT, $ua);
+			$res = curl_exec($ch);
+			curl_close($ch);
+			if($res != NULL && count(explode(' ', $res)) != 1) {
+				$data = json_decode($res, 1);
+				echo "\n[+] Repos Information\n";
+				for($x = 0;$x < count($data);$x++) {
+					if($data[$x]["name"] == explode(' ', $userInput)[2]) {
+						echo "ID: ".$data[$x]["id"]."\n";
+						echo "Node ID: ".$data[$x]["node_id"]."\n";
+						echo "Name: ".$data[$x]["name"]."\n";
+						echo "Full Name: ".$data[$x]["full_name"]."\n";
+						echo "Owner: ".$data[$x]["owner"]["login"]."\n";
+						echo "Private: ".$data[$x]["private"]."\n";
+						echo "HTML URL: ".$data[$x]["html_url"]."\n";
+						echo "Description: ".$data[$x]["description"]."\n";
+						echo "Fork: ".$data[$x]["fork"]."\n";
+						echo "Homepage: ".$data[$x]["homepage"]."\n";
+						echo "Size: ".$data[$x]["size"]."\n";
+						echo "Stars: ".$data[$x]["stargazers_count"]."\n";
+						echo "Watchers: ".$data[$x]["watchers"]."\n";
+						echo "Language: ".$data[$x]["language"]."\n";
+						echo "Issues: ".$data[$x]["has_issues"]."\n";
+						echo "Projects: ".$data[$x]["has_projects"]."\n";
+						echo "Downloads: ".$data[$x]["has_downloads"]."\n";
+						echo "Wiki: ".$data[$x]["has_wiki"]."\n";
+						echo "Pages: ".$data[$x]["has_pages"]."\n";
+						echo "Mirror url: ".$data[$x]["mirror_url"]."\n";
+						echo "Archived: ".$data[$x]["archived"]."\n";
+						echo "License: ".$data[$x]["license"]."\n";
+						echo "Forks: ".$data[$x]["forks"]."\n";
+						echo "Open issues: ".$data[$x]["open_issues"]."\n";
+						echo "Default branch: ".$data[$x]["default_branch"]."\n\n";
+					}
+				}
+			} else {
+				echo "[!] NetworkError: Network is unreachable\n";
+			}
+		} else {
+			//pass
+		}
+	} elseif(preg_match('/getfower/', $userInput)) {
+		if(explode(' ', $userInput)[0] == "getfower" && count(explode(' ', $userInput)) == 2) {
+			$url = "https://api.github.com/users/".explode(' ', $userInput)[1]."/followers?per_page=999";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_USERAGENT, $ua);
+			$res = curl_exec($ch);
+			curl_close($ch);
+			if($res != NULL && count(explode(' ', $res)) != 1) {
+				$data = json_decode($res, 1);
+				echo "\n[+] Followers Information\n";
+				for($x = 0;$x < count($data);$x++) {
+					echo "Login: ".$data[$x]["login"]."\n";
+					echo "ID: ".$data[$x]["id"]."\n";
+					echo "Node ID: ".$data[$x]["node_id"]."\n";
+					echo "Avatar URL: ".$data[$x]["avatar_url"]."\n";
+					echo "Gravatar ID: ".$data[$x]["gravatar_id"]."\n";
+					echo "HTML URL: ".$data[$x]["html_url"]."\n";
+					echo "Type: ".$data[$x]["type"]."\n";
+					echo "Site Admin: ".$data[$x]["site_admin"]."\n\n";
+				}
+			} else {
+				echo "[!] NetworkError: Network is unreachable\n";
+			}
+		} else {
+			//pass
+		}
+	} elseif(preg_match('/getfowin/', $userInput)) {
+		if(explode(' ', $userInput)[0] == "getfowin" && count(explode(' ', $userInput)) == 2) {
+			$url = "https://api.github.com/users/".explode(' ', $userInput)[1]."/following?per_page=999";
+			$ch = curl_init();
+			curl_setopt($ch, CURLOPT_URL, $url);
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+			curl_setopt($ch, CURLOPT_USERAGENT, $ua);
+			$res = curl_exec($ch);
+			curl_close($ch);
+			if($res != NULL && count(explode(' ', $res)) != 1) {
+				$data = json_decode($res, 1);
+				echo "\n[+] Following Information\n";
+				for($x = 0;$x < count($data);$x++) {
+					echo "Login: ".$data[$x]["login"]."\n";
+					echo "ID: ".$data[$x]["id"]."\n";
+					echo "Node ID: ".$data[$x]["node_id"]."\n";
+					echo "Avatar URL: ".$data[$x]["avatar_url"]."\n";
+					echo "Gravatar ID: ".$data[$x]["gravatar_id"]."\n";
+					echo "HTML URL: ".$data[$x]["html_url"]."\n";
+					echo "Type: ".$data[$x]["type"]."\n";
+					echo "Site Admin: ".$data[$x]["site_admin"]."\n\n";
+				}
+			} else {
+				echo "[!] NetworkError: Network is unreachable\n";
+			}
+		} else {
+			//pass
+		}
+	} elseif($userInput == "about") {
+		echo $about;
+	} elseif($userInput == "exit" || $userInput == "quit") {
+		echo $normal;break;
+	} else {
+		//pass
+	}
+}
