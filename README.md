@@ -12,39 +12,39 @@ This is a automation of installing some important tools which all Linux & Termux
 
 
 ## Tools Categories:
--     [1] Anonymously Hiding Tools
--     [2] Android Hacking tools
--     [3] Bruteforce Attacks
--     [4] DDOS Attack Tools
--     [5] Exploit framework
--     [6] Email Verify tools
--     [7] Forensic tools
--     [8] Hash cracking tools
--     [2] Information Gathering Tools
--     [10] Messaging Tools
--     [11] Media Tools
--     [12] Networking Tools
--     [13] Operating Systems Tools
--     [14] Security Tools
--     [15] Wordlist Generators
--     [16] Wireless attack tools
--     [17] SQL Injection Tools
--     [18] Phishing attack tools
--     [19] Web Attack Tools
--     [20] Web Browser Tools
--     [21] Post exploitation tools
--     [22] Payload creation tools
--     [23] Reverse engineering tools
--     [24] Remote Administrator Tools(RAT)
--     [25] XSS Attack Tools
--     [26] Steganograhy tools
--     [27] IDN Homograph Attack
--     [28] Wifi Deauthenticate
--     [29] SocialMedia Finder
--     [30] Payload Injector
--     [31] Web crawling
--     [32] Password Attacking Tools
--     [33] Games Section
+-[1] Anonymously Hiding Tools
+-[2] Android Hacking tools
+-[3] Bruteforce Attacks
+-[4] DDOS Attack Tools
+-[5] Exploit framework
+-[6] Email Verify tools
+-[7] Forensic tools
+-[8] Hash cracking tools
+-[2] Information Gathering Tools
+-[10] Messaging Tools
+-[11] Media Tools
+-[12] Networking Tools
+-[13] Operating Systems Tools
+-[14] Security Tools
+-[15] Wordlist Generators
+-[16] Wireless attack tools
+-[17] SQL Injection Tools
+-[18] Phishing attack tools
+-[19] Web Attack Tools
+-[20] Web Browser Tools
+-[21] Post exploitation tools
+-[22] Payload creation tools
+-[23] Reverse engineering tools
+-[24] Remote Administrator Tools(RAT)
+-[25] XSS Attack Tools
+-[26] Steganograhy tools
+-[27] IDN Homograph Attack
+-[28] Wifi Deauthenticate
+-[29] SocialMedia Finder
+-[30] Payload Injector
+-[31] Web crawling
+-[32] Password Attacking Tools
+-[33] Games Section
 
 
 ## Search Tool:
