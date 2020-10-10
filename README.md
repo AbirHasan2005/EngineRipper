@@ -45,6 +45,7 @@ This is a automation of installing some important tools which all Linux & Termux
 - [31] Web crawling
 - [32] Password Attacking Tools
 - [33] Games Section
+- More coming soon.
 
 
 ## Search Tool:
@@ -72,7 +73,7 @@ git clone https://github.com/AbirHasan2005/EngineRipper && cd EngineRipper && ch
 
 
 ## Beta Info:
-As you know that this is in Beta version. So this is not fully complete. Only 50+ Tools available for now. I am working not is also [Anomos Dox](https://github.com/palahsu) helping. We will add 500+ Tools soon. If you want to suggest any tool than **Feel Free** to send your tool name in [Telegram Group](http://t.me/linux_repo). We will soon touch 500+ tools if you guys help us. Don't use **Search Tool** for now. I will make it working soon. @engineripper
+As you know that this is in Beta version. So this is not fully complete. Only 50+ Tools available for now. I am working on it, also [Palahsu](https://github.com/palahsu) helping. We will add 1000+ Tools soon. If you want to suggest any tool than **Feel Free** to send your tool name in [Telegram Group](http://t.me/linux_repo). We will soon touch 500+ tools if you guys help us. Don't use **Search Tool** for now. I will make it working soon. #engineripper
 
 
 ## Telegram Group(Discuss):
@@ -89,7 +90,7 @@ If you want to send any Feedback or if you want to share any new idea for this t
 	- Helped to collect some tools list.
 - [Arif Hasan](http://t.me/bash_lover)
 	- Helped to make the banner.
-	- Degined ***error_handle*** and ***command_not_found*** function.
+	- Designed ***error_handle*** and ***command_not_found*** function.
 - [BlackHole Security](https://github.com/Gameye98/GINF)
 	- For Search Tool.
 
