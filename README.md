@@ -6,10 +6,11 @@
 
 <a href="https://github.com/AbirHasan2005?tab=following"><img src="https://img.shields.io/github/followers/AbirHasan2005?style=social"></a>   <a href="https://github.com/AbirHasan2005/EngineRipper/network/members"><img src="https://img.shields.io/github/forks/AbirHasan2005/EngineRipper?style=social"></a>   
 
-# Engine Ripper v1.51-BETA  [![GitHub release (latest by date)](https://img.shields.io/badge/release-v1.5--Beta-blue)](https://github.com/AbirHasan2005/EngineRipper/releases)
+# Engine Ripper v1.64-BETA  [![GitHub release (latest by date)](https://img.shields.io/badge/release-v1.6--Beta-blue)](https://github.com/AbirHasan2005/EngineRipper/releases)
 
 This is a automation of installing some important tools which all Linux & Termux users needs. Now only some tools are available. Try to get a target of 1000+ tools on this tool. If you want to help us to add some tools on this than please send tool name on my [Telegram Group](http://t.me/linux_repo). This tool will do a automation installing of a tool. No need to do much things. It's collection of tools is better for now. Trying to make it best. I will update this tool soon. So must check updates on GitHub or [Telegram Group](http://t.me/linux_repo). In next update I will add more tools. Also I will fix problems. If you want to report any issue than please do it in GitHub or [Telegram Group](http://t.me/linux_repo). Trying to make this a best. So if you want to share any ideas to improve this tool or any feature should I put on this tool than please send your feedback on [Telegram Group](http://t.me/linux_repo).
 
+### [ChangeLog](https://github.com/AbirHasan2005/EngineRipper/releases/tag/v1.6-Beta)
 
 ## Tools Categories:
 - [1] Anonymously Hiding Tools
@@ -44,7 +45,8 @@ This is a automation of installing some important tools which all Linux & Termux
 - [30] Payload Injector
 - [31] Web crawling
 - [32] Password Attacking Tools
-- [33] Games Section
+- [33] Telegram Bots Source Codes
+- [34] Games Section
 - More coming soon.
 
 
@@ -63,7 +65,7 @@ One line command:
 ```bash
 git clone https://github.com/AbirHasan2005/EngineRipper && cd EngineRipper && chmod +x * && ./engrip.sh
 ```
-
+***Better if you run `./setup.sh`***
 
 ### Degined for
 - Kali
